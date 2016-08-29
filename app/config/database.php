@@ -54,7 +54,7 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => $_ENV['188.166.229.13'],
+            'host'      => $_ENV['localhost'],
             'database'  => $_ENV['forge'],
             'username'  => $_ENV['forge'],
             'password'  => $_ENV['2IRYMhvJJb58eQ1DueaK'],
