@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'default' => 'sqlite'
+    'default' => 'mysql'
 ];
