@@ -4,7 +4,7 @@
 
 <h1>To Do List</h1>
 
-<p>{{ link_to_route('tasks.create', 'Add new task') }}</p>
+<p>{{ link_to_route('tasks.create', 'Tambahkan To Do Baru') }}</p>
 
 @if ($tasks->count())
     <table class="table table-striped table-bordered">
