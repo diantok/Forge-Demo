@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>Current Tasks</h1>
+<h1>To Do List</h1>
 
 <p>{{ link_to_route('tasks.create', 'Add new task') }}</p>
 
@@ -10,8 +10,8 @@
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Description</th>
+                <th>Nama</th>
+                <th>Deskripsi</th>
             </tr>
         </thead>
 
@@ -31,7 +31,7 @@
         </tbody>
     </table>
 @else
-    There are no tasks
+    Tidak ada To Do List
 @endif
 
 @stop
